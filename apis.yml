@@ -1,0 +1,32 @@
+aid: findwork
+name: Findwork
+description: "Job board"
+url: https://findwork.dev/developers/
+specificationVersion: '0.20'
+created: '2026-05-28'
+modified: '2026-05-28'
+x-source: public-apis/public-apis
+x-category: "Jobs"
+x-tier: 3
+x-tier-reason: bulk-registered-from-public-apis
+tags:
+  - Jobs
+  - Public APIs
+apis:
+  - name: Findwork
+    description: "Job board"
+    humanURL: https://findwork.dev/developers/
+    baseURL: https://findwork.dev/developers/
+    tags:
+      - Jobs
+    properties:
+      - type: Documentation
+        url: https://findwork.dev/developers/
+common:
+  - type: Website
+    url: https://findwork.dev/developers/
+  - type: PublicAPIsListing
+    url: https://github.com/public-apis/public-apis
+maintainers:
+  - FN: Kin Lane
+    email: kin@apievangelist.com
