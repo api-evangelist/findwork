@@ -35,14 +35,15 @@ x-tier-reason: bulk-registered-from-public-apis
 tags:
   - Job
   - Public APIs
+  - Job Board
 tags_raw:
   - Jobs
   - Public APIs
+  - Job Board
 apis:
   - name: Findwork
     description: "Job board"
     humanURL: https://findwork.dev/developers/
-    baseURL: https://findwork.dev/developers/
     tags:
       - Job
     tags_raw:
